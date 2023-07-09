@@ -1,0 +1,216 @@
+{
+  "Routes": [
+    {
+
+      "DownstreamPathTemplate": "/api/Hotels/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44387
+        }
+      ],
+      "UpstreamPathTemplate": "/Hotels/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/Hotels/List",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44387
+        }
+      ],
+      "UpstreamPathTemplate": "/Hotels/List",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/Hotels/Add",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44387
+        }
+      ],
+      "UpstreamPathTemplate": "/Hotels/Add",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/Hotels/Update",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44387
+        }
+      ],
+      "UpstreamPathTemplate": "/Hotels/Update",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/Hotels/Delete",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44387
+        }
+      ],
+      "UpstreamPathTemplate": "/Hotels/Delete",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+
+    {
+
+      "DownstreamPathTemplate": "/api/HotelContacts/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44316
+        }
+      ],
+      "UpstreamPathTemplate": "/HotelContacts/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/HotelContacts/List",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44316
+        }
+      ],
+      "UpstreamPathTemplate": "/HotelContacts/List",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/HotelContacts/Add",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44316
+        }
+      ],
+      "UpstreamPathTemplate": "/HotelContacts/Add",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/HotelContacts/Update",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44316
+        }
+      ],
+      "UpstreamPathTemplate": "/HotelContacts/Update",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/HotelContacts/Delete",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44316
+        }
+      ],
+      "UpstreamPathTemplate": "/HotelContacts/Delete",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+
+    {
+
+      "DownstreamPathTemplate": "/api/HotelOfficials/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44365
+        }
+      ],
+      "UpstreamPathTemplate": "/HotelOfficials/{id}",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/HotelOfficials/List",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44365
+        }
+      ],
+      "UpstreamPathTemplate": "/HotelOfficials/List",
+      "UpstreamHttpMethod": [ "Get" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/HotelOfficials/Add",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44365
+        }
+      ],
+      "UpstreamPathTemplate": "/HotelOfficials/Add",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/HotelOfficials/Update",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44365
+        }
+      ],
+      "UpstreamPathTemplate": "/HotelOfficials/Update",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    },
+    {
+
+      "DownstreamPathTemplate": "/api/HotelOfficials/Delete",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44365
+        }
+      ],
+      "UpstreamPathTemplate": "/HotelOfficials/Delete",
+      "UpstreamHttpMethod": [ "Post" ]
+
+    }
+  ]
+}
